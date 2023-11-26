@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
+
+
+header h1, section h2 {
+    font-family: 'Bungee', sans-serif;
+}
 
 
 header {
@@ -21,8 +27,12 @@ header nav li a{
     color: #ecf0f1;
     padding-right: 10px;
     font-weight:bolder;
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
+}
+
+header h1, section h2 {
+    font-weight: normal;
 }
 
 .container {
@@ -41,7 +51,6 @@ header nav li a{
 }
 
 
-
 header .container {
     display: flex;
     align-items: center;
@@ -49,11 +58,15 @@ header .container {
 }
 
 .brands-list img {
-    width: 100px;
+    width: 70px;
 }
 .brands-list li {
     display: inline;
+    margin-right: 6px;
 }
+
+
+
 
 
 
