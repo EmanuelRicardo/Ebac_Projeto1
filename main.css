@@ -70,12 +70,12 @@ header .container {
     height: 24px;
 }
 
-#contato .container {
+#contact .container {
     display: block;
 
 }
 
-#contact-metods {
+#contact-methods {
     display: flex;
     justify-content: space-between;
 }
@@ -91,6 +91,8 @@ form input, form textarea, form button {
 form textarea {
     resize: none;
 }
+
+
 
 
 
