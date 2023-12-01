@@ -2,13 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 
 
-header h1, section h2 {
+header, 
+section h2,
+section h3 {
     font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    font-family:  'Roboto', sans-serif;
 }
 
 
@@ -21,6 +27,7 @@ header {
 header nav li {
     display:inline;
     padding-left: 16px;
+    font-size: 18px;
     
 }
 header nav li a{
@@ -31,7 +38,8 @@ header nav li a{
     text-decoration: none;
 }
 
-header h1, section h2 {
+header h1, 
+section h2 {
     font-weight: normal;
 }
 
@@ -75,12 +83,14 @@ header .container {
 
 }
 
-#contact-methods {
+#contact .contact-methods {
     display: flex;
     justify-content: space-between;
 }
 
-form input, form textarea, form button {
+form input, 
+form textarea, 
+form button {
     display: block;
     width: 320px;
     margin-bottom: 8px;
@@ -90,6 +100,21 @@ form input, form textarea, form button {
 
 form textarea {
     resize: none;
+}
+
+.social-links {
+    list-style: none;
+}
+
+form button {
+    background-color: #182C61;
+    color: #fff;
+    font-weight:bolder;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #3655aa;
 }
 
 
